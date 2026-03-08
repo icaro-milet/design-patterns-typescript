@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "typescript": "export TERM=xterm && npx ts-node --files --transpile-only",
+    },
+    "code-runner.showExecutionMessage": false
+}

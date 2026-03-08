@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2024",
+        "module": "commonjs",
+        "lib": ["ESNext", "DOM"],
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "removeComments": true,
+        "noEmitOnError": true, // don't emit if there are errors
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true, // .d.ts files
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [// include all .ts files in the src directory
+        "./src"
+    ]
+}
