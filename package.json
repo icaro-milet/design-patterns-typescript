@@ -1,0 +1,26 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "singleton:generic": "ts-node src/creational/singleton/scenarios/generic/module-b.ts",
+    "singleton:modularity": "ts-node src/creational/singleton/scenarios/modularity/module-b.ts",
+    "singleton:function": "ts-node src/creational/singleton/scenarios/function/module-b.ts",
+    "singleton:ts-js": "ts-node src/creational/singleton/scenarios/typescript-javascript/module-b.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Exemplos de padroes de projeto em TypeScript, organizados por categoria e cenario.",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
